@@ -25,10 +25,12 @@ dotnet test
 ```
 
 ## Employing different config values
-You have the option to change the following values:
-- Api Id
-- App Key
-- Api Path
+You have the option to change the following values in the appsettings.json. This can be found under the RoadStatus.Console folder and looks as follows:
 
-You can do this by editing the values in the appsettings.json file which can be found under the RoadStatus.Console folder.
-
+```json
+{
+    "AppId": "4a0deb66",
+    "AppKey": "69d009fdac45c18b1f4cf302eabc3e62",
+    "ApiPath": "https://api.tfl.gov.uk/road"
+}
+```
